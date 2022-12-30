@@ -1,0 +1,22 @@
+{
+  "name": "archivos-iniciales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css",
+    "sass-build": "node-sass sass -o public/css --output-style compressed",
+    "dev-server": "live-server --watch=\"*.html,public\"",
+    "eslint": "eslint js",
+    "dev": "concurrently \"npm run sass\" \"npm run dev-server\" "
+  },
+  "author": "James",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "live-server": "^1.2.2",
+    "livereload": "^0.9.3",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  }
+}

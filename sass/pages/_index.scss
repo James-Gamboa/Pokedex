@@ -1,0 +1,101 @@
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
+
+/* Aquí comienzan los colores de botones según tipo */
+.normal {
+  background-color: $type-normal;
+  color: $clr-black;
+}
+
+.fire {
+  background-color: $type-fire;
+  color: $clr-black;
+}
+
+.water {
+  background-color: $type-water;
+  color: $clr-white;
+}
+
+.grass {
+  background-color: $type-grass;
+  color: $clr-black;
+}
+
+.electric {
+  background-color: $type-electric;
+  color: $clr-black;
+}
+
+.ice {
+  background-color: $type-ice;
+  color: $clr-black;
+}
+
+.fighting {
+  background-color: $type-fighting;
+  color: $clr-white;
+}
+
+.poison {
+  background-color: $type-poison;
+  color: $clr-white;
+}
+
+.ground {
+  background-color: $type-ground;
+  color: $clr-black;
+}
+
+.flying {
+  background-color: $type-flying;
+  color: $clr-black;
+}
+
+.psychic {
+  background-color: $type-psychic;
+  color: $clr-black;
+}
+
+.bug {
+  background-color: $type-bug;
+  color: $clr-black;
+}
+
+.rock {
+  background-color: $type-rock;
+  color: $clr-black;
+}
+
+.ghost {
+  background-color: $type-ghost;
+  color: $clr-white;
+}
+
+.dark {
+  background-color: $type-dark;
+  color: $clr-white;
+}
+
+.dragon {
+  background-color: $type-dragon;
+  color: $clr-white;
+}
+
+.steel {
+  background-color: $type-steel;
+  color: $clr-black;
+}
+
+.fairy {
+  background-color: $type-fairy;
+  color: $clr-black;
+}

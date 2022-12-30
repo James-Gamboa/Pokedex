@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1c1c1c;
+  font-family: "Rubik", sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0; }
+
+/* Aquí comienzan los colores de botones según tipo */
+.normal {
+  background-color: #A8A878;
+  color: #1c1c1c; }
+
+.fire {
+  background-color: #F08030;
+  color: #1c1c1c; }
+
+.water {
+  background-color: #6890F0;
+  color: #f7f7f7; }
+
+.grass {
+  background-color: #78C850;
+  color: #1c1c1c; }
+
+.electric {
+  background-color: #F8D030;
+  color: #1c1c1c; }
+
+.ice {
+  background-color: #98D8D8;
+  color: #1c1c1c; }
+
+.fighting {
+  background-color: #C03028;
+  color: #f7f7f7; }
+
+.poison {
+  background-color: #A040A0;
+  color: #f7f7f7; }
+
+.ground {
+  background-color: #E0C068;
+  color: #1c1c1c; }
+
+.flying {
+  background-color: #A890F0;
+  color: #1c1c1c; }
+
+.psychic {
+  background-color: #F85888;
+  color: #1c1c1c; }
+
+.bug {
+  background-color: #A8B820;
+  color: #1c1c1c; }
+
+.rock {
+  background-color: #B8A038;
+  color: #1c1c1c; }
+
+.ghost {
+  background-color: #705898;
+  color: #f7f7f7; }
+
+.dark {
+  background-color: #705848;
+  color: #f7f7f7; }
+
+.dragon {
+  background-color: #7038F8;
+  color: #f7f7f7; }
+
+.steel {
+  background-color: #B8B8D0;
+  color: #1c1c1c; }
+
+.fairy {
+  background-color: #F0B6BC;
+  color: #1c1c1c; }
