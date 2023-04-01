@@ -16,6 +16,7 @@
     "concurrently": "^7.6.0",
     "live-server": "^1.2.2",
     "livereload": "^0.9.3",
+    "node": "^19.8.1",
     "node-sass": "^8.0.0",
     "sass": "^1.57.1"
   }

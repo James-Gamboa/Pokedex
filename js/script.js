@@ -3,7 +3,7 @@ const botonesHeader = document.querySelectorAll(".btn-header");
 // @ts-ignore
 let URL = "https://pokeapi.co/api/v2/pokemon/";
 
-for (let i = 1; i <= 151; i++) {
+for (let i = 1; i <= 1118; i++) {
   // @ts-ignore
   fetch(URL + i)
     .then((response) => response.json())
@@ -56,7 +56,7 @@ botonesHeader.forEach((boton) =>
     // @ts-ignore
     listaPokemon.innerHTML = "";
 
-    for (let i = 1; i <= 151; i++) {
+    for (let i = 1; i <= 1118; i++) {
       // @ts-ignore
       fetch(URL + i)
         .then((response) => response.json())
