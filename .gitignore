@@ -1,2 +1,12 @@
 node_modules
-package-lock.json
+.pnpm-store
+.next
+out
+dist
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.env
+.env*.local
+npm-debug.log*
+pnpm-debug.log*
